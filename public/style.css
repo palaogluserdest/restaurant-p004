@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+#logo{
+    width: 150px;
+    height: 100%;
+    float: right;
+    margin-right: 70px;
+}
+
+.nav-menu{
+    list-style: none;
+    padding-top: 27px;
+    padding-left: 140px;
+}
+
+.nav-menu li{
+    float: left;
+    margin-right: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+#main{
+    background-image: url("img/BG.jpg");
+
+}

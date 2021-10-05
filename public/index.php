@@ -1,55 +1,48 @@
-<?php
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-use Illuminate\Contracts\Http\Kernel;
-use Illuminate\Http\Request;
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-define('LARAVEL_START', microtime(true));
+<div class="container mt-2">
 
-/*
-|--------------------------------------------------------------------------
-| Check If The Application Is Under Maintenance
-|--------------------------------------------------------------------------
-|
-| If the application is in maintenance / demo mode via the "down" command
-| we will load this file so that any pre-rendered content can be shown
-| instead of starting the framework, which could cause an exception.
-|
-*/
+    <div id="navbar">
+        <div class="row">
+            <div class="col-4">
+                <img id="logo" src="img/LOGO.png" alt="">
+            </div>
+            <div class="col-8 ">
+                <ul class="nav-menu">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>LOCATIONS</li>
+                    <li>MENU</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
-if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
-    require __DIR__.'/../storage/framework/maintenance.php';
-}
+    <hr>
 
-/*
-|--------------------------------------------------------------------------
-| Register The Auto Loader
-|--------------------------------------------------------------------------
-|
-| Composer provides a convenient, automatically generated class loader for
-| this application. We just need to utilize it! We'll simply require it
-| into the script here so we don't need to manually load our classes.
-|
-*/
+    <div id="main">
+        <div style="width: 100%; height: 250px">slider</div>
+        <div style="width: 100%; height: 500px">best dishes</div>
+    </div>
 
-require __DIR__.'/../vendor/autoload.php';
 
-/*
-|--------------------------------------------------------------------------
-| Run The Application
-|--------------------------------------------------------------------------
-|
-| Once we have the application, we can handle the incoming request using
-| the application's HTTP kernel. Then, we will send the response back
-| to this client's browser, allowing them to enjoy our application.
-|
-*/
+</div>
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
 
-$kernel = $app->make(Kernel::class);
 
-$response = tap($kernel->handle(
-    $request = Request::capture()
-))->send();
 
-$kernel->terminate($request, $response);
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
