@@ -37,11 +37,17 @@
         <div style="width: 100%; height: 500px">best dishes</div>
     </div>
 
+require __DIR__.'/../vendor/autoload.php';
 
 </div>
 
+$app = require_once __DIR__.'/../bootstrap/app.php';
 
+$kernel = $app->make(Kernel::class);
 
+$response = tap($kernel->handle(
+    $request = Request::capture()
+))->send();
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
