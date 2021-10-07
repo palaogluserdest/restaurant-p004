@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,22 +33,68 @@
     <hr>
 
     <div id="main">
-        <div style="width: 100%; height: 250px">slider</div>
-        <div style="width: 100%; height: 500px">best dishes</div>
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-7">
+                                <h1>What is Pasta?</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem expedita molestias numquam quidem soluta voluptates? Illum inventore maxime vel.</p>
+                            </div>
+                            <div class="col-5">
+                                <img class="float-left d-block w-75" src="./img/slideimg.png" alt="First slide">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h1>What is Pasta?</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem expedita molestias numquam quidem soluta voluptates? Illum inventore maxime vel.</p>
+                                </div>
+                                <div class="col-5">
+                                    <img class="float-left d-block w-75" src="./img/slideimg.png" alt="Second Slide">
+                                </div>
+                            </div>
+                    </div>
+                    <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h1>What is Pasta?</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem expedita molestias numquam quidem soluta voluptates? Illum inventore maxime vel.</p>
+                                </div>
+                                <div class="col-5">
+                                    <img class="float-left d-block w-75" src="./img/slideimg.png" alt="Third Slide">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <img src="img/arrowleft.png" alt="arrLeft">
+                    </span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <img src="img/arrowright.png" alt="arrLeft">
+                    </span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
     </div>
-
-require __DIR__.'/../vendor/autoload.php';
-
 </div>
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 
-$kernel = $app->make(Kernel::class);
 
-$response = tap($kernel->handle(
-    $request = Request::capture()
-))->send();
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
