@@ -24,3 +24,50 @@
     background-image: url("img/BG.jpg");
 
 }
+
+#slider-1{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.arrow{
+    color: #555353;
+}
+
+.carousel-control-prev{
+    position: relative;
+    top: 128px;
+    left: 25px;
+}
+
+.carousel-control-next{
+    position: relative;
+    top: 94px;
+    right: -900px;
+}
+
+#slider-1 .carousel-indicators li{
+    width: 8px;
+    height: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #FF0D00;
+    border-radius: 50%;
+}
+
+div .col-3 img{
+    height: 200px;
+    margin-top: 50px;
+}
+
+.col-7 h4{
+    color: #FF0D00;
+    margin-bottom: 25px;
+}
+
+.slide-text{
+    line-height: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+}
