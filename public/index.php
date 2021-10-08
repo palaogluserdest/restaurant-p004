@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div class="container mt-2">
+<div class="container-fluid mt-2">
 
     <div id="navbar">
         <div class="row">
@@ -33,44 +33,39 @@
     <hr>
 
     <div id="main">
-        <div class="container">
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
                 <div class="carousel-inner">
                      <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-7">
+                            <div class="col-6">
                                 <h1>What is Pasta?</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem expedita molestias numquam quidem soluta voluptates? Illum inventore maxime vel.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur explicabo fugiat harum nemo nesciunt quas quasi vel voluptates. Deleniti doloribus eius eum fuga nesciunt non totam? Ab aliquam deleniti expedita magni omnis voluptate voluptatem voluptatibus. Ab facilis numquam velit!</p>
                             </div>
-                            <div class="col-5">
-                                <img class="float-left d-block w-75" src="./img/slideimg.png" alt="First slide">
+                            <div class="col-6">
+                                <img class="float-left d-block" src="./img/slideimg.png" alt="First slide">
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-6">
                                     <h1>What is Pasta?</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem expedita molestias numquam quidem soluta voluptates? Illum inventore maxime vel.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium asperiores autem culpa delectus doloremque eaque earum eligendi esse ex exercitationem fugit hic id incidunt ipsa minima molestias officiis perferendis, placeat quidem quis repellat sed voluptas voluptatum. Aliquam enim eum mollitia?</p>
                                 </div>
-                                <div class="col-5">
-                                    <img class="float-left d-block w-75" src="./img/slideimg.png" alt="Second Slide">
+                                <div class="col-6">
+                                    <img class="float-left d-block" src="./img/slideimg.png" alt="Second Slide">
                                 </div>
                             </div>
                     </div>
                     <div class="carousel-item">
                             <div class="row">
-                                <div class="col-7">
+                                <div class="col-6">
                                     <h1>What is Pasta?</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dolorem expedita molestias numquam quidem soluta voluptates? Illum inventore maxime vel.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto dolore, earum explicabo facilis ipsum, nemo placeat quod quos ratione repellendus similique, sit vel. Consequatur eligendi enim hic incidunt ipsam laboriosam laudantium molestias? Aperiam fugit harum ipsum, maiores recusandae repellat!</p>
                                 </div>
                                 <div class="col-5">
-                                    <img class="float-left d-block w-75" src="./img/slideimg.png" alt="Third Slide">
+                                    <img class="float-left d-block" src="./img/slideimg.png" alt="Third Slide">
                                 </div>
                             </div>
                     </div>
@@ -87,7 +82,13 @@
                     </span>
                     <span class="sr-only">Next</span>
                 </a>
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
             </div>
+            <hr>
         </div>
     </div>
 </div>

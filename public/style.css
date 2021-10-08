@@ -22,5 +22,51 @@
 
 #main{
     background-image: url("img/BG.jpg");
+    background-position: center;
+}
+.carousel-indicators{
+    position: relative;
+    margin-top: 40px;
+}
+ol.carousel-indicators li,
+ol.carousel-indicators li.active{
+    background-color: red;
+    height: 8px;
+    width: 8px;
+    margin:8px;
+    border-radius: 100%;
+}
 
+.carousel-inner{
+    padding: 10px 10px 10px 20%;
+}
+
+.carousel-control-prev{
+    left:9% ;
+}
+.carousel-control-next{
+    right: 14%;
+}
+
+.carousel-item h1{
+    color: #D52E38;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.carousel-item p{
+    line-height: 35px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.carousel-item .row img{
+    position: relative;
+    top: 35%;
+    right: 20%;
+    width: 50%;
+}
+hr{
+    border-top: 3px solid #EDEDED;
 }
