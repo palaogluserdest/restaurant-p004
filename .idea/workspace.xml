@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69b68bc6-fce7-49ea-b74b-4cdb025a4372" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/deneme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/slide_deneme.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
@@ -18,9 +20,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="Blade" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -31,6 +33,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -211,6 +214,14 @@
       <workItem from="1633463877661" duration="1329000" />
       <workItem from="1633637552131" duration="360000" />
       <workItem from="1633671365157" duration="10102000" />
+      <workItem from="1633847099942" duration="612000" />
+      <workItem from="1633848263152" duration="27000" />
+      <workItem from="1633851556390" duration="11000" />
+      <workItem from="1633851626863" duration="6412000" />
+      <workItem from="1633959611644" duration="576000" />
+      <workItem from="1633982899983" duration="7650000" />
+      <workItem from="1633995267220" duration="3626000" />
+      <workItem from="1634026571829" duration="13602000" />
     </task>
     <servers />
   </component>
@@ -232,6 +243,12 @@
                       </list>
                     </value>
                   </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="101" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="106" />
                 </map>
               </option>
             </State>

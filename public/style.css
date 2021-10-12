@@ -61,7 +61,7 @@ ol.carousel-indicators li.active{
     margin-right: 150px;
 }
 
-.carousel-item .row img{
+#main.carousel-item .row img{
     position: relative;
     top: 35%;
     right: 20%;
@@ -69,4 +69,53 @@ ol.carousel-indicators li.active{
 }
 hr{
     border-top: 3px solid #EDEDED;
+}
+#bestDishesPictures #carouselExampleControls .carousel-inner img{
+    width: 225px;
+}
+
+#bestDishes{
+    background-image: url("./img/www3.jpg");
+}
+#bestDishes #containBestDishes #bestDishesRow{
+    width: 100%;
+    margin: 0 auto;
+}
+#bestDishes #containBestDishes #bestDishesRow .slick-slider{
+    width: 50%;
+    margin-inline: auto;
+}
+#bestDishes #containBestDishes #bestDishesRow .slick-slide img{
+    width: 70%;
+    margin:auto;
+}
+
+#bestDishes #containBestDishes #bestDishesRow .slick-slide{
+    width: 280px;
+}
+
+#bestDishes #containBestDishes #bestDishesRow .slick-next{
+    background-image: url("./img/bestdishesrightarrow.png") !important;
+    width: 15px;
+    height: 30px;
+}
+#bestDishes #containBestDishes #bestDishesRow .slick-prev{
+    background-image: url("./img/bestdishesleftarrow.png") !important;
+    width: 16px;
+    height: 30px;
+}
+#bestDishes #containBestDishes #bestDishesRow .slick-prev:before{
+    content: none;
+}
+#bestDishes #containBestDishes #bestDishesRow .slick-next:before{
+    content: none;
+}
+
+#bestDishes #containBestDishes #bestDishesRow #pastaHeader{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: Oswald;
+    letter-spacing: 2px;
 }
