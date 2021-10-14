@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="69b68bc6-fce7-49ea-b74b-4cdb025a4372" name="Changes" comment="" />
+    <list default="true" id="69b68bc6-fce7-49ea-b74b-4cdb025a4372" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/JsLib/MyJQ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/jquery.glide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/jquery.localScroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/jquery.scrollTo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/stickUp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/JsLib/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/restaurant-p004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restaurant-p004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/slide_deneme.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/slide_deneme.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" doNotAsk="true">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -17,6 +36,7 @@
         <option value="HTML File" />
         <option value="Blade" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -180,11 +200,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../P004" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="engindeniz" />
+    </force-push-targets>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\Restaurant_Web_Project\public\JsLib" />
       <recent name="C:\laragon\www\restaurant-p004\public" />
       <recent name="C:\laragon\www\restaurant-p004\public\img" />
     </key>
@@ -215,7 +242,17 @@
       <workItem from="1633959611644" duration="576000" />
       <workItem from="1633982899983" duration="7650000" />
       <workItem from="1633995267220" duration="3626000" />
-      <workItem from="1634026571829" duration="13926000" />
+      <workItem from="1634026571829" duration="14188000" />
+      <workItem from="1634057835589" duration="54000" />
+      <workItem from="1634060517650" duration="4555000" />
+      <workItem from="1634065135850" duration="4778000" />
+      <workItem from="1634120974932" duration="2794000" />
+      <workItem from="1634144893926" duration="8096000" />
+      <workItem from="1634206234870" duration="4151000" />
+      <workItem from="1634213429881" duration="522000" />
+      <workItem from="1634213972294" duration="1017000" />
+      <workItem from="1634215012046" duration="487000" />
+      <workItem from="1634215597433" duration="7778000" />
     </task>
     <servers />
   </component>

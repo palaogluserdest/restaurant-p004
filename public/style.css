@@ -119,3 +119,84 @@ hr{
     font-family: Oswald;
     letter-spacing: 2px;
 }
+
+#bookOnlineContainer{
+    background-image: url("./img/BG.jpg");
+}
+
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form{
+    width: 75%;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form #bookOnlineFormContainerRows .col-4{
+    padding-right: 0px;
+    padding-left: 0px;
+    width: 45%;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form #bookOnlineFormContainerRows #nameInput{
+    padding-right: 20px;
+    padding-left: 0px;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form #bookOnlineFormContainerRows #emailInput{
+    padding-right: 0px;
+    padding-left: 20px;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form #bookOnlineFormContainerRows .col-4 input{
+    padding-right: 0px;
+    padding-left: 10px;
+    width: 98%;
+    height: 80px !important;
+    font-size: x-large;
+    color: white;
+    margin: auto;
+    /*float: left;*/
+    border: none;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form #bookOnlineFormContainerRows .col-4 #PeopleNumber{
+    padding-right: 0px;
+    padding-left: 10px;
+    width: 70%;
+    height: 80px !important;
+    font-size: x-large;
+    color: white;
+    /*margin: auto;*/
+    margin-left: 2px;
+    float: left;
+    border: none;
+    border-bottom-right-radius:0px;
+    border-top-right-radius: 0px;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form #bookOnlineFormContainerRows .col-6 input{
+    width: 63%;
+    height: 80px;
+    border: none !important;
+    font-size: x-large;
+    color: white;
+}
+
+#basicAddon{
+    height: 80px;
+    width: 100px;
+    background-color: #343A40;
+    border: none;
+}
+#basicAddonNumberPeople{
+    height: 80px;
+    width: 100px;
+    background-color: #343A40;
+    border: none;
+    border-bottom-left-radius:0px;
+    border-top-left-radius: 0px;
+}
+#bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm{
+    margin-bottom: 35px;
+}
+#buttonBookOnline{
+    box-shadow: 0 6px 0 0 #C84E2A;
+}
+
+#contactUs #contactUsPictures .col-2 img{
+    background-color: #FF5B0C;
+    padding:3px;
+    border-radius: 10px;
+}
+

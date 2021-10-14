@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="public/JsLib/animate.css">
 </head>
 <body>
 
@@ -126,6 +129,122 @@
                     </div>
                 </div>
             </div>
+            <div class="container-fluid mt-1" id="bookOnlineContainer">
+                <div class="d-flex flex-row justify-content-center" id="bookOnlineHeader">
+                    <div class="p-2 align-self-center">
+                        <hr style="border:5px solid #FE5A0B;width: 150px">
+                    </div>
+                    <div class="p-2 align-self-center">
+                        <h1 style="color: #D11827;font-size: xx-large">BOOK ONLINE</h1>
+                    </div>
+                    <div class="p-2 align-self-center">
+                        <hr style="border:5px solid #FE5A0B;width: 150px">
+                    </div>
+                </div>
+                <div class="container-fluid mt-3" id="bookOnlineBodyFormContainer">
+                    <div class="flex-row d-flex justify-content-center" id="bookOnlineContainerForm">
+                        <form>
+                            <div id="bookOnlineFormContainerRows">
+                                <div class="flex-row d-flex justify-content-center">
+                                    <div class="col-6" id="nameInput">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control bg-dark" id="yourNameInput" placeholder="Your Name">
+                                            <div class="input-group-append align-self-center">
+                                               <span class="input-group-text" id="basicAddon">
+                                                   <img style="margin-left: 30%;width: 60%" src="./img/icon4.png" alt="">
+                                               </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6" id="emailInput">
+                                        <div class="input-group">
+                                        <input type="email" class="form-control bg-dark" id="eMail" aria-describedby="YourEmail" placeholder="Your Email">
+                                            <div class="input-group-append align-self-center">
+                                               <span class="input-group-text" id="basicAddon">
+                                                   <img style="margin-left: 45%;width: 50%" src="./img/icon3.png" alt="">
+                                               </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-row d-flex mt-3 justify-content-center">
+                                    <div class="input-group">
+                                        <div class="col-4">
+                                            <input type="datetime-local" class="form-control bg-dark" id="SecondDate" aria-describedby="secondDate" placeholder="Second Date">
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="datetime-local" class="form-control bg-dark" id="SecondDate" aria-describedby="secondDate" placeholder="Second Date">
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="number" class="form-control bg-dark" id="PeopleNumber" aria-describedby="peopleNumber" placeholder="Number of People">
+                                            <span class="input-group-text" id="basicAddonNumberPeople">
+                                                   <img style="margin-left: 68%;width: 25%;" src="./img/icon.png" alt="">
+                                               </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="flex-row d-flex mt-4 justify-content-center">
+                                    <button type="button" class="btn btn-lg btn-block align-self-center animatebutton" id="buttonBookOnline" style="float: left; background-color:#FF5B0C">
+                                        <h3 style="margin-bottom: 0px;font-weight:900;color: white">BOOK NOW</h3>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container mb-5" id="contactUs">
+                <div class="d-flex flex-row justify-content-center" id="bookOnlineHeader">
+                    <div class="p-2 align-self-center">
+                        <hr style="border:5px solid #FE5A0B;width: 150px">
+                    </div>
+                    <div class="p-2 align-self-center">
+                        <h1 style="color: #D11827;font-size: xx-large;letter-spacing: 6px">CONTACT US</h1>
+                    </div>
+                    <div class="p-2 align-self-center">
+                        <hr style="border:5px solid #FE5A0B;width: 150px">
+                    </div>
+                </div>
+                <div class="flex-row d-flex mt-4" id="contactUsPictures">
+                    <div class="col-2">
+                        <img class="myimage" src="./img/char3.png">
+                        <p class="firstpop">Burada bir şeyler yazacak</p>
+                        <script type="text/javascript">
+                            $(document).ready(function (){
+                                $('.myimage').click(function(){
+
+
+
+                                    $('.firstpop').animate({ opacity:1,},500);
+                                    $('.secondpop').animate({ opacity:0,},500);
+                                    $('.thirdpop').animate({ opacity:0,},500);
+                                    $('.fourthpop').animate({ opacity:0,},500);
+                                    $('.fifthpop').animate({ opacity:0,},500);
+                                    $('.sixthpop').animate({ opacity:0,},500);
+                                    $('.seventhpop').animate({ opacity:0,},500);
+
+                                })
+                            })
+                        </script>
+                    </div>
+                    <div class="col-2">
+                        <img src="./img/char4.png">
+                    </div>
+                    <div class="col-2">
+                        <img src="./img/char5.png">
+                    </div>
+                    <div class="col-2">
+                        <img src="./img/char6.png">
+                    </div>
+                    <div class="col-2">
+                        <img src="./img/char1.png">
+                    </div>
+                    <div class="col-2">
+                        <img src="./img/char2.png">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -135,12 +254,30 @@
 <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+<script src="public/JsLib/jquery.glide.js"></script>
+<script src="public/JsLib/jquery.js"></script>
+<script src="public/JsLib/jquery.localScroll.min.js"></script>
+<script src="public/JsLib/jquery.scrollTo.min.js"></script>
+<script src="public/JsLib/stickUp.min.js"></script>
+<script src="public/JsLib/wow.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function (){
         $('.items').slick({
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 3
+        });
+    });
+</script>
+<script type="text/javascript">
+    $( document ).ready(function() {
+// Bounce button
+        $("#buttonBookOnline").click(function(){
+            const element = document.querySelector('.animatebutton');
+            element.classList.add('animated', 'bounceIn');
+            setTimeout(function() {
+                element.classList.remove('bounceIn');
+            }, 1000);
         });
     });
 </script>
