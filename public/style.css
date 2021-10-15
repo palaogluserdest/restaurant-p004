@@ -61,7 +61,7 @@ ol.carousel-indicators li.active{
     margin-right: 150px;
 }
 
-#main.carousel-item .row img{
+#main .carousel-item .row img{
     position: relative;
     top: 35%;
     right: 20%;
@@ -76,6 +76,7 @@ hr{
 
 #bestDishes{
     background-image: url("./img/www3.jpg");
+    background-size: cover;
 }
 #bestDishes #containBestDishes #bestDishesRow{
     width: 100%;
@@ -120,9 +121,7 @@ hr{
     letter-spacing: 2px;
 }
 
-#bookOnlineContainer{
-    background-image: url("./img/BG.jpg");
-}
+
 
 #bookOnlineContainer #bookOnlineBodyFormContainer #bookOnlineContainerForm form{
     width: 75%;
