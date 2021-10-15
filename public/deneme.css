@@ -1,0 +1,10 @@
+.slick-slider{
+    width: 50%;
+    margin-inline: auto;
+}
+.slick-next{
+    background-image: url("./img/bestdishesrightarrow.png") !important;
+}
+.slick-prev{
+    background-image: url("./img/bestdishesleftarrow.png") !important;
+}
